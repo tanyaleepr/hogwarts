@@ -1,6 +1,7 @@
 * {
     box-sizing: border-box;
     width: 100%;
+    margin-bottom: 2%;
     justify-content: center;
     align-items: center;
     margin: auto 
@@ -9,10 +10,10 @@
 
 
 header, footer {
-    height: 100px;
+    height: 10%;
     border: 10px solid black;
     clear:both;
-    background-color: goldenrod;
+    background-color: #bebebe;
     display: flex;
     
 }
@@ -22,7 +23,7 @@ article {
     width: 50%;
     border: 10px solid black;
     float: left;
-    background-color: gray;
+    background-color: transparent;
     display: flex;
 }
 
@@ -67,7 +68,7 @@ h2 {
         border-color: white;
     }
     h1 {
-        color: white;
+        color: black;
         font-style: italic;
         padding-bottom: 80%;
         padding-right: 90%;
@@ -79,23 +80,27 @@ h2 {
     background-image: url('https://media.giphy.com/media/qotS2jDwb78j9U4rHw/giphy.gif');
     background-position: center;
     background-repeat: no-repeat;
+    background-size: 90%;
     }
 
     .two {
     background-image: url('https://media.giphy.com/media/MfZ4RYNAHC1PNd4jg1/giphy.gif');
     background-position: center;
     background-repeat: no-repeat;
+    background-size: 90%;
     }
 
     .three {
     background-image: url('https://media.giphy.com/media/FnjTE2vycfWTAxP89b/giphy.gif') ;
     background-position: center;
     background-repeat: no-repeat;
+    background-size: 90%;
     }
 
     .four {
     background-image: url('https://media.giphy.com/media/aiY4hFZoFSV25vHNC7/giphy.gif');
     background-position: center;
     background-repeat: no-repeat;
+    background-size: 90%;
     }
 
