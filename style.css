@@ -38,5 +38,64 @@ h2 {
 
 }
 
-/* media queries */
+/* media queries large*/
+
+@media all and (max-width: 1900px) {
+    article {
+        border-color: yellow;
+    }
+}
+@media all and (max-width: 1700px) {
+   
+    article {
+        border-color: green;
+    }
+
+@media all and (max-width: 1400px) {
+    
+    article {
+        border-color: red;
+    }
+
+ @media all and (max-width: 1000px) {
+        article {
+            border-color: blue;
+        }
+
+@media all and (max-width: 800px) {
+    article {
+        border-color: white;
+    }
+    h1 {
+        color: white;
+        font-style: italic;
+        padding-bottom: 80%;
+        padding-right: 90%;
+        font-size: 45px;
+        
+    }
+    .one {
+
+    background-image: url('https://media.giphy.com/media/qotS2jDwb78j9U4rHw/giphy.gif');
+    background-position: center;
+    background-repeat: no-repeat;
+    }
+
+    .two {
+    background-image: url('https://media.giphy.com/media/MfZ4RYNAHC1PNd4jg1/giphy.gif');
+    background-position: center;
+    background-repeat: no-repeat;
+    }
+
+    .three {
+    background-image: url('https://media.giphy.com/media/FnjTE2vycfWTAxP89b/giphy.gif') ;
+    background-position: center;
+    background-repeat: no-repeat;
+    }
+
+    .four {
+    background-image: url('https://media.giphy.com/media/aiY4hFZoFSV25vHNC7/giphy.gif');
+    background-position: center;
+    background-repeat: no-repeat;
+    }
 
